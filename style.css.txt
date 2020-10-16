@@ -1,0 +1,13 @@
+.lukasred {
+	font-size:20px;
+	color:#0300FA;
+}
+
+.lukastitlebar {
+	 width: 100%;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0px;
+	bg-color:#9E15FA;
+}
