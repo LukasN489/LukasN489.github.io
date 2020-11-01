@@ -83,13 +83,15 @@ function newkeyChoice(toolChoice) { //toolchoice is the key that was pressed
     
   } else if (toolChoice == '2') { // second tool
 
-    stroke(230, 103, 165, 75);
+    stroke(20, 103, 165, 75);
     line(mouseX, mouseY, pmouseX, pmouseY);
 
   } else if (toolChoice == '3') { // third tool
 
-    stroke(300, 100, 0, 80);
+    stroke(00, 100, 0, 80);
     line(mouseX, mouseY, pmouseX, pmouseY);
+	 stroke(170, 170, 170);
+    testbox(10, 10, 100);
   } else if (toolChoice == '4') {
 
     stroke(0, 0, 255);
