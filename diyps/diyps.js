@@ -14,7 +14,7 @@ function setup() {
 createCanvas(1200, 900);  // canvas size
   // Define colors
   c1 = color(8, 13, 69);
-  c2 = color(121, 25, 97);
+  c2 = color(111, 20, 37);
   setGradient(c1, c2);
 
 }
