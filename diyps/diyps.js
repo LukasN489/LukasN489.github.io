@@ -13,7 +13,7 @@ function preload() {
 function setup() {
 createCanvas(1200, 900);  // canvas size
   // Define colors
-  c1 = color(4, 17, 62);
+  c1 = color(8, 13, 69);
   c2 = color(121, 25, 97);
   setGradient(c1, c2);
 
