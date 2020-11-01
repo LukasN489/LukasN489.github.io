@@ -78,13 +78,12 @@ function newkeyChoice(toolChoice) { //toolchoice is the key that was pressed
 
  if (toolChoice == '1' ) {  // first tool
    
-    stroke(255, 90);
+    stroke(355, 90);
     line(mouseX, mouseY, pmouseX, pmouseY);
     
   } else if (toolChoice == '2') { // second tool
-
-    stroke(20, 103, 165, 75);
-    line(mouseX, mouseY, pmouseX, pmouseY);
+    fill(20, 138, 350, 98);
+    rect(mouseX, mouseY, pmouseX, pmouseY);
 
   } else if (toolChoice == '3') { // third tool
 
