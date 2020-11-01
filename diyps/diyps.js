@@ -82,7 +82,7 @@ function newkeyChoice(toolChoice) { //toolchoice is the key that was pressed
     line(mouseX, mouseY, pmouseX, pmouseY);
     
   } else if (toolChoice == '2') { // second tool
-    fill(15, 8, 20, 38);
+    fill(300, 8, 20, 38);
     rect(mouseX, mouseY, pmouseX, pmouseY);
 
   } else if (toolChoice == '3') { // third tool
