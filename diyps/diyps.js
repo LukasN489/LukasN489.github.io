@@ -98,6 +98,11 @@ function newkeyChoice(toolChoice) { //toolchoice is the key that was pressed
   } else if (key == '5') { // this tool calls a function
     stroke(255, 255, 255);
     testbox(20, 20, 200);
+	  } else if (toolChoice == 'g' || toolChoice == 'G') { // g places the image we pre-loaded
+  image(img, mouseX, mouseY);
+  } else if (toolChoice == 'h' || toolChoice == 'H') { // g places the image we pre-loaded
+  image(img2, mouseX, mouseY);
+  }
 }
   
 function keyTyped() {
